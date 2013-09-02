@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86DD80C917D41C5300E8B61C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80C817D41C5300E8B61C /* UIKit.framework */; };
+		86DD80CB17D41C5300E8B61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80CA17D41C5300E8B61C /* Foundation.framework */; };
+		86DD80CD17D41C5300E8B61C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80CC17D41C5300E8B61C /* CoreGraphics.framework */; };
+		86DD80CF17D41C5300E8B61C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80CE17D41C5300E8B61C /* CoreData.framework */; };
+		86DD80D517D41C5300E8B61C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80D317D41C5300E8B61C /* InfoPlist.strings */; };
+		86DD80D717D41C5300E8B61C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD80D617D41C5300E8B61C /* main.m */; };
+		86DD80DB17D41C5300E8B61C /* UPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD80DA17D41C5300E8B61C /* UPAppDelegate.m */; };
+		86DD80DD17D41C5300E8B61C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80DC17D41C5300E8B61C /* Default.png */; };
+		86DD80DF17D41C5300E8B61C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80DE17D41C5300E8B61C /* Default@2x.png */; };
+		86DD80E117D41C5300E8B61C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80E017D41C5300E8B61C /* Default-568h@2x.png */; };
+		86DD80E417D41C5300E8B61C /* DottegiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86DD80E217D41C5300E8B61C /* DottegiApp.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86DD80C517D41C5300E8B61C /* DottegiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DottegiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DD80C817D41C5300E8B61C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86DD80CA17D41C5300E8B61C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86DD80CC17D41C5300E8B61C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86DD80CE17D41C5300E8B61C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		86DD80D217D41C5300E8B61C /* DottegiApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DottegiApp-Info.plist"; sourceTree = "<group>"; };
+		86DD80D417D41C5300E8B61C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86DD80D617D41C5300E8B61C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86DD80D817D41C5300E8B61C /* DottegiApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DottegiApp-Prefix.pch"; sourceTree = "<group>"; };
+		86DD80D917D41C5300E8B61C /* UPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPAppDelegate.h; sourceTree = "<group>"; };
+		86DD80DA17D41C5300E8B61C /* UPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPAppDelegate.m; sourceTree = "<group>"; };
+		86DD80DC17D41C5300E8B61C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		86DD80DE17D41C5300E8B61C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		86DD80E017D41C5300E8B61C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		86DD80E317D41C5300E8B61C /* DottegiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DottegiApp.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86DD80C217D41C5300E8B61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DD80C917D41C5300E8B61C /* UIKit.framework in Frameworks */,
+				86DD80CB17D41C5300E8B61C /* Foundation.framework in Frameworks */,
+				86DD80CD17D41C5300E8B61C /* CoreGraphics.framework in Frameworks */,
+				86DD80CF17D41C5300E8B61C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86DD80BC17D41C5300E8B61C = {
+			isa = PBXGroup;
+			children = (
+				86DD80D017D41C5300E8B61C /* DottegiApp */,
+				86DD80C717D41C5300E8B61C /* Frameworks */,
+				86DD80C617D41C5300E8B61C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86DD80C617D41C5300E8B61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86DD80C517D41C5300E8B61C /* DottegiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86DD80C717D41C5300E8B61C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DD80C817D41C5300E8B61C /* UIKit.framework */,
+				86DD80CA17D41C5300E8B61C /* Foundation.framework */,
+				86DD80CC17D41C5300E8B61C /* CoreGraphics.framework */,
+				86DD80CE17D41C5300E8B61C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86DD80D017D41C5300E8B61C /* DottegiApp */ = {
+			isa = PBXGroup;
+			children = (
+				86DD80D917D41C5300E8B61C /* UPAppDelegate.h */,
+				86DD80DA17D41C5300E8B61C /* UPAppDelegate.m */,
+				86DD80E217D41C5300E8B61C /* DottegiApp.xcdatamodeld */,
+				86DD80D117D41C5300E8B61C /* Supporting Files */,
+			);
+			path = DottegiApp;
+			sourceTree = "<group>";
+		};
+		86DD80D117D41C5300E8B61C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86DD80D217D41C5300E8B61C /* DottegiApp-Info.plist */,
+				86DD80D317D41C5300E8B61C /* InfoPlist.strings */,
+				86DD80D617D41C5300E8B61C /* main.m */,
+				86DD80D817D41C5300E8B61C /* DottegiApp-Prefix.pch */,
+				86DD80DC17D41C5300E8B61C /* Default.png */,
+				86DD80DE17D41C5300E8B61C /* Default@2x.png */,
+				86DD80E017D41C5300E8B61C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86DD80C417D41C5300E8B61C /* DottegiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DD80E717D41C5300E8B61C /* Build configuration list for PBXNativeTarget "DottegiApp" */;
+			buildPhases = (
+				86DD80C117D41C5300E8B61C /* Sources */,
+				86DD80C217D41C5300E8B61C /* Frameworks */,
+				86DD80C317D41C5300E8B61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DottegiApp;
+			productName = DottegiApp;
+			productReference = 86DD80C517D41C5300E8B61C /* DottegiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86DD80BD17D41C5300E8B61C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Union Pool";
+			};
+			buildConfigurationList = 86DD80C017D41C5300E8B61C /* Build configuration list for PBXProject "DottegiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86DD80BC17D41C5300E8B61C;
+			productRefGroup = 86DD80C617D41C5300E8B61C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86DD80C417D41C5300E8B61C /* DottegiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86DD80C317D41C5300E8B61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DD80D517D41C5300E8B61C /* InfoPlist.strings in Resources */,
+				86DD80DD17D41C5300E8B61C /* Default.png in Resources */,
+				86DD80DF17D41C5300E8B61C /* Default@2x.png in Resources */,
+				86DD80E117D41C5300E8B61C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86DD80C117D41C5300E8B61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DD80D717D41C5300E8B61C /* main.m in Sources */,
+				86DD80DB17D41C5300E8B61C /* UPAppDelegate.m in Sources */,
+				86DD80E417D41C5300E8B61C /* DottegiApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86DD80D317D41C5300E8B61C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86DD80D417D41C5300E8B61C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86DD80E517D41C5300E8B61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86DD80E617D41C5300E8B61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86DD80E817D41C5300E8B61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DottegiApp/DottegiApp-Prefix.pch";
+				INFOPLIST_FILE = "DottegiApp/DottegiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86DD80E917D41C5300E8B61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DottegiApp/DottegiApp-Prefix.pch";
+				INFOPLIST_FILE = "DottegiApp/DottegiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86DD80C017D41C5300E8B61C /* Build configuration list for PBXProject "DottegiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DD80E517D41C5300E8B61C /* Debug */,
+				86DD80E617D41C5300E8B61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DD80E717D41C5300E8B61C /* Build configuration list for PBXNativeTarget "DottegiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DD80E817D41C5300E8B61C /* Debug */,
+				86DD80E917D41C5300E8B61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86DD80E217D41C5300E8B61C /* DottegiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86DD80E317D41C5300E8B61C /* DottegiApp.xcdatamodel */,
+			);
+			currentVersion = 86DD80E317D41C5300E8B61C /* DottegiApp.xcdatamodel */;
+			path = DottegiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86DD80BD17D41C5300E8B61C /* Project object */;
+}
