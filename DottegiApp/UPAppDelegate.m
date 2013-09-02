@@ -7,6 +7,11 @@
 //
 
 #import "UPAppDelegate.h"
+#import "UPMainViewController.h"
+#import "UPRandomViewController.h"
+#import "UPCameraViewController.h"
+#import "UPNewsViewController.h"
+#import "UPUserViewController.h"
 
 @implementation UPAppDelegate
 
@@ -16,10 +21,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc]
+                   initWithFrame:[[UIScreen mainScreen] bounds]];
+
     [self.window makeKeyAndVisible];
+    
+    self.mainViewController = [[UPMainViewController alloc] initWithNibName:nil bundle:nil];
+    
+    self.mainNavController = [[UINavigationController alloc]
+                              initWithRootViewController:self.mainViewController];
+    self.randomViewController = [[UPRandomViewController alloc] initWithNibName:nil bundle:nil];
+    self.randomNavController = [[UINavigationController alloc]
+                                initWithRootViewController:self.randomViewController];
+    self.camViewController = [[UPCameraViewController alloc] initWithNibName:nil bundle:nil];
+    self.newsViewController = [[UPNewsViewController alloc] initWithNibName:nil bundle:nil];
+    self.userViewController = [[UPUserViewController alloc] initWithNibName:nil bundle:nil];
+    self.userNavController = [[UINavigationController alloc]
+                              initWithRootViewController:self.userViewController];
+    
+    NSArray *viewControllersArr = [[NSArray alloc]
+                                   initWithObjects:
+                                   self.mainViewController,
+                                   self.randomNavController,
+                                   self.camViewController,
+                                   self.newsViewController,
+                                   self.userNavController, nil];
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    [self.tabBarController setViewControllers:viewControllersArr];
+    self.window.rootViewController = _mainViewController;
+    
+    [self.window addSubview:self.tabBarController.view];
+    
     return YES;
 }
 

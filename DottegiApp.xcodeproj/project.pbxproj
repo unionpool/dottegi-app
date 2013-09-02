@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8627E40117D41D9300D54716 /* UPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8627E3FF17D41D9300D54716 /* UPMainViewController.m */; };
+		8627E40217D41D9300D54716 /* UPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8627E40017D41D9300D54716 /* UPMainViewController.xib */; };
+		8627E44717D42A1B00D54716 /* UPRandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8627E44517D42A1B00D54716 /* UPRandomViewController.m */; };
+		8627E44817D42A1B00D54716 /* UPRandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8627E44617D42A1B00D54716 /* UPRandomViewController.xib */; };
+		8627E44C17D42A3500D54716 /* UPUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8627E44A17D42A3500D54716 /* UPUserViewController.m */; };
+		8627E44D17D42A3500D54716 /* UPUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8627E44B17D42A3500D54716 /* UPUserViewController.xib */; };
+		8627E45117D42A7000D54716 /* UPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8627E44F17D42A7000D54716 /* UPNewsViewController.m */; };
+		8627E45217D42A7000D54716 /* UPNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8627E45017D42A7000D54716 /* UPNewsViewController.xib */; };
+		8627E45617D42A8100D54716 /* UPCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8627E45417D42A8100D54716 /* UPCameraViewController.m */; };
+		8627E45717D42A8100D54716 /* UPCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8627E45517D42A8100D54716 /* UPCameraViewController.xib */; };
+		8627E49317D4570100D54716 /* tabbar-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48917D4570100D54716 /* tabbar-bubble.png */; };
+		8627E49417D4570100D54716 /* tabbar-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48A17D4570100D54716 /* tabbar-bubble@2x.png */; };
+		8627E49517D4570100D54716 /* tabbar-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48B17D4570100D54716 /* tabbar-camera.png */; };
+		8627E49617D4570100D54716 /* tabbar-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48C17D4570100D54716 /* tabbar-camera@2x.png */; };
+		8627E49717D4570100D54716 /* tabbar-favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48D17D4570100D54716 /* tabbar-favorite.png */; };
+		8627E49817D4570100D54716 /* tabbar-favorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48E17D4570100D54716 /* tabbar-favorite@2x.png */; };
+		8627E49917D4570100D54716 /* tabbar-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E48F17D4570100D54716 /* tabbar-star.png */; };
+		8627E49A17D4570100D54716 /* tabbar-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E49017D4570100D54716 /* tabbar-star@2x.png */; };
+		8627E49B17D4570100D54716 /* tabbar-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E49117D4570100D54716 /* tabbar-user.png */; };
+		8627E49C17D4570100D54716 /* tabbar-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8627E49217D4570100D54716 /* tabbar-user@2x.png */; };
+		8627E49E17D46B2400D54716 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8627E49D17D46B2400D54716 /* sample.jpg */; };
 		86DD80C917D41C5300E8B61C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80C817D41C5300E8B61C /* UIKit.framework */; };
 		86DD80CB17D41C5300E8B61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80CA17D41C5300E8B61C /* Foundation.framework */; };
 		86DD80CD17D41C5300E8B61C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD80CC17D41C5300E8B61C /* CoreGraphics.framework */; };
@@ -18,9 +39,38 @@
 		86DD80DF17D41C5300E8B61C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80DE17D41C5300E8B61C /* Default@2x.png */; };
 		86DD80E117D41C5300E8B61C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DD80E017D41C5300E8B61C /* Default-568h@2x.png */; };
 		86DD80E417D41C5300E8B61C /* DottegiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86DD80E217D41C5300E8B61C /* DottegiApp.xcdatamodeld */; };
+		86E8151D17D47432005AED0D /* sample2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86E8151C17D47432005AED0D /* sample2.jpeg */; };
+		86E8152017D47872005AED0D /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86E8151E17D47872005AED0D /* profile.jpg */; };
+		86E8152117D47872005AED0D /* profile@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86E8151F17D47872005AED0D /* profile@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8627E3FE17D41D9300D54716 /* UPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPMainViewController.h; sourceTree = "<group>"; };
+		8627E3FF17D41D9300D54716 /* UPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPMainViewController.m; sourceTree = "<group>"; };
+		8627E40017D41D9300D54716 /* UPMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPMainViewController.xib; sourceTree = "<group>"; };
+		8627E44417D42A1B00D54716 /* UPRandomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRandomViewController.h; sourceTree = "<group>"; };
+		8627E44517D42A1B00D54716 /* UPRandomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRandomViewController.m; sourceTree = "<group>"; };
+		8627E44617D42A1B00D54716 /* UPRandomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPRandomViewController.xib; sourceTree = "<group>"; };
+		8627E44917D42A3500D54716 /* UPUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPUserViewController.h; sourceTree = "<group>"; };
+		8627E44A17D42A3500D54716 /* UPUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPUserViewController.m; sourceTree = "<group>"; };
+		8627E44B17D42A3500D54716 /* UPUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPUserViewController.xib; sourceTree = "<group>"; };
+		8627E44E17D42A7000D54716 /* UPNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPNewsViewController.h; sourceTree = "<group>"; };
+		8627E44F17D42A7000D54716 /* UPNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPNewsViewController.m; sourceTree = "<group>"; };
+		8627E45017D42A7000D54716 /* UPNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPNewsViewController.xib; sourceTree = "<group>"; };
+		8627E45317D42A8100D54716 /* UPCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCameraViewController.h; sourceTree = "<group>"; };
+		8627E45417D42A8100D54716 /* UPCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCameraViewController.m; sourceTree = "<group>"; };
+		8627E45517D42A8100D54716 /* UPCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPCameraViewController.xib; sourceTree = "<group>"; };
+		8627E48917D4570100D54716 /* tabbar-bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-bubble.png"; sourceTree = "<group>"; };
+		8627E48A17D4570100D54716 /* tabbar-bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-bubble@2x.png"; sourceTree = "<group>"; };
+		8627E48B17D4570100D54716 /* tabbar-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-camera.png"; sourceTree = "<group>"; };
+		8627E48C17D4570100D54716 /* tabbar-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-camera@2x.png"; sourceTree = "<group>"; };
+		8627E48D17D4570100D54716 /* tabbar-favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-favorite.png"; sourceTree = "<group>"; };
+		8627E48E17D4570100D54716 /* tabbar-favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-favorite@2x.png"; sourceTree = "<group>"; };
+		8627E48F17D4570100D54716 /* tabbar-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-star.png"; sourceTree = "<group>"; };
+		8627E49017D4570100D54716 /* tabbar-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-star@2x.png"; sourceTree = "<group>"; };
+		8627E49117D4570100D54716 /* tabbar-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-user.png"; sourceTree = "<group>"; };
+		8627E49217D4570100D54716 /* tabbar-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-user@2x.png"; sourceTree = "<group>"; };
+		8627E49D17D46B2400D54716 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 		86DD80C517D41C5300E8B61C /* DottegiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DottegiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DD80C817D41C5300E8B61C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86DD80CA17D41C5300E8B61C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +86,9 @@
 		86DD80DE17D41C5300E8B61C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		86DD80E017D41C5300E8B61C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		86DD80E317D41C5300E8B61C /* DottegiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DottegiApp.xcdatamodel; sourceTree = "<group>"; };
+		86E8151C17D47432005AED0D /* sample2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpeg; sourceTree = "<group>"; };
+		86E8151E17D47872005AED0D /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		86E8151F17D47872005AED0D /* profile@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "profile@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +106,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8627E3FD17D41D6000D54716 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8627E3FE17D41D9300D54716 /* UPMainViewController.h */,
+				8627E3FF17D41D9300D54716 /* UPMainViewController.m */,
+				8627E40017D41D9300D54716 /* UPMainViewController.xib */,
+				8627E44417D42A1B00D54716 /* UPRandomViewController.h */,
+				8627E44517D42A1B00D54716 /* UPRandomViewController.m */,
+				8627E44617D42A1B00D54716 /* UPRandomViewController.xib */,
+				8627E44917D42A3500D54716 /* UPUserViewController.h */,
+				8627E44A17D42A3500D54716 /* UPUserViewController.m */,
+				8627E44B17D42A3500D54716 /* UPUserViewController.xib */,
+				8627E44E17D42A7000D54716 /* UPNewsViewController.h */,
+				8627E44F17D42A7000D54716 /* UPNewsViewController.m */,
+				8627E45017D42A7000D54716 /* UPNewsViewController.xib */,
+				8627E45317D42A8100D54716 /* UPCameraViewController.h */,
+				8627E45417D42A8100D54716 /* UPCameraViewController.m */,
+				8627E45517D42A8100D54716 /* UPCameraViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8627E45817D4330900D54716 /* tabbar_icon */ = {
+			isa = PBXGroup;
+			children = (
+				8627E48917D4570100D54716 /* tabbar-bubble.png */,
+				8627E48A17D4570100D54716 /* tabbar-bubble@2x.png */,
+				8627E48B17D4570100D54716 /* tabbar-camera.png */,
+				8627E48C17D4570100D54716 /* tabbar-camera@2x.png */,
+				8627E48D17D4570100D54716 /* tabbar-favorite.png */,
+				8627E48E17D4570100D54716 /* tabbar-favorite@2x.png */,
+				8627E48F17D4570100D54716 /* tabbar-star.png */,
+				8627E49017D4570100D54716 /* tabbar-star@2x.png */,
+				8627E49117D4570100D54716 /* tabbar-user.png */,
+				8627E49217D4570100D54716 /* tabbar-user@2x.png */,
+			);
+			name = tabbar_icon;
+			sourceTree = "<group>";
+		};
 		86DD80BC17D41C5300E8B61C = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +176,7 @@
 		86DD80D017D41C5300E8B61C /* DottegiApp */ = {
 			isa = PBXGroup;
 			children = (
+				8627E3FD17D41D6000D54716 /* Controllers */,
 				86DD80D917D41C5300E8B61C /* UPAppDelegate.h */,
 				86DD80DA17D41C5300E8B61C /* UPAppDelegate.m */,
 				86DD80E217D41C5300E8B61C /* DottegiApp.xcdatamodeld */,
@@ -95,6 +188,11 @@
 		86DD80D117D41C5300E8B61C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8627E49D17D46B2400D54716 /* sample.jpg */,
+				86E8151C17D47432005AED0D /* sample2.jpeg */,
+				86E8151E17D47872005AED0D /* profile.jpg */,
+				86E8151F17D47872005AED0D /* profile@2x.jpg */,
+				8627E45817D4330900D54716 /* tabbar_icon */,
 				86DD80D217D41C5300E8B61C /* DottegiApp-Info.plist */,
 				86DD80D317D41C5300E8B61C /* InfoPlist.strings */,
 				86DD80D617D41C5300E8B61C /* main.m */,
@@ -162,6 +260,25 @@
 				86DD80DD17D41C5300E8B61C /* Default.png in Resources */,
 				86DD80DF17D41C5300E8B61C /* Default@2x.png in Resources */,
 				86DD80E117D41C5300E8B61C /* Default-568h@2x.png in Resources */,
+				8627E40217D41D9300D54716 /* UPMainViewController.xib in Resources */,
+				8627E44817D42A1B00D54716 /* UPRandomViewController.xib in Resources */,
+				8627E44D17D42A3500D54716 /* UPUserViewController.xib in Resources */,
+				8627E45217D42A7000D54716 /* UPNewsViewController.xib in Resources */,
+				8627E45717D42A8100D54716 /* UPCameraViewController.xib in Resources */,
+				8627E49317D4570100D54716 /* tabbar-bubble.png in Resources */,
+				8627E49417D4570100D54716 /* tabbar-bubble@2x.png in Resources */,
+				8627E49517D4570100D54716 /* tabbar-camera.png in Resources */,
+				8627E49617D4570100D54716 /* tabbar-camera@2x.png in Resources */,
+				8627E49717D4570100D54716 /* tabbar-favorite.png in Resources */,
+				8627E49817D4570100D54716 /* tabbar-favorite@2x.png in Resources */,
+				8627E49917D4570100D54716 /* tabbar-star.png in Resources */,
+				8627E49A17D4570100D54716 /* tabbar-star@2x.png in Resources */,
+				8627E49B17D4570100D54716 /* tabbar-user.png in Resources */,
+				8627E49C17D4570100D54716 /* tabbar-user@2x.png in Resources */,
+				8627E49E17D46B2400D54716 /* sample.jpg in Resources */,
+				86E8151D17D47432005AED0D /* sample2.jpeg in Resources */,
+				86E8152017D47872005AED0D /* profile.jpg in Resources */,
+				86E8152117D47872005AED0D /* profile@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +292,11 @@
 				86DD80D717D41C5300E8B61C /* main.m in Sources */,
 				86DD80DB17D41C5300E8B61C /* UPAppDelegate.m in Sources */,
 				86DD80E417D41C5300E8B61C /* DottegiApp.xcdatamodeld in Sources */,
+				8627E40117D41D9300D54716 /* UPMainViewController.m in Sources */,
+				8627E44717D42A1B00D54716 /* UPRandomViewController.m in Sources */,
+				8627E44C17D42A3500D54716 /* UPUserViewController.m in Sources */,
+				8627E45117D42A7000D54716 /* UPNewsViewController.m in Sources */,
+				8627E45617D42A8100D54716 /* UPCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +411,7 @@
 				86DD80E917D41C5300E8B61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
